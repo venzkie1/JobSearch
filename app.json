@@ -8,6 +8,21 @@
       "expo-router"
     ],
     "name": "Job_Search",
-    "slug": "Job_Search"
+    "slug": "Job_Search",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "6aa7110a-1250-4414-ab2e-4f505056c837"
+      }
+    },
+    "owner": "venzkie1",
+    "android": {
+      "package": "com.venzkie1.JobFinderApp"
+    },
+    "ios": {
+      "bundleIdentifier": "com.venzkie1.JobFinderApp"
+    }
   }
 }
