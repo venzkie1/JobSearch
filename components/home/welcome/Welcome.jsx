@@ -23,8 +23,8 @@ const Welcome = ({ searchTerm, setSearchTerm, handleClick}) => {
 
       <View style={styles.container}>
 
-        <Text style={styles.userName}>Hello Kebs</Text>
-        <Text style={styles.welcomeMessage}>Find your job</Text>
+        <Text style={styles.userName}>Hello Tambay</Text>
+        <Text style={styles.welcomeMessage}>Find ka na ng job here oh</Text>
 
       </View>
 
@@ -35,7 +35,7 @@ const Welcome = ({ searchTerm, setSearchTerm, handleClick}) => {
             style={styles.searchInput}
             value={searchTerm}
             onChangeText={(text) => setSearchTerm(text)}
-            placeholder='Search your dream job here!'
+            placeholder='Search mo here your job na want oh!'
           />
         </View>
 
